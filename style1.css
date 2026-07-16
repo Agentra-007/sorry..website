@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #23404A;
+    flex-direction: column;
+}
+
+.container {
+    width: 75vw;
+    height: 80vh;
+    padding: 20px;
+    background: #3E2D5A;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.box {
+    width: 100%;
+    height: 15%;
+    border-radius: 10px;
+    background: #FFD6E7;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #2d2d2d;
+    overflow-wrap: break-word;
+    margin: 0;
+    text-align: center;
+}
+
+.content {
+    background: #FFD6E7;
+    height: 70%;
+    overflow-y: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #2d2d2d;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-align: center
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+.form {
+    width: 50vw;
+    height: 60vh;
+    padding: 20px;
+    background: #FFD6E7;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    margin-top: 10px;
+}

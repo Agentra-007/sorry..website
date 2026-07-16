@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.container {
+  max-width: 600px;
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin-bottom: 40px;
+}
+
+/* Relative positioning container so the runaway button
+   has room to move around inside it */
+.btn-area {
+  position: relative;
+  height: 220px;
+  /* border: 1px dashed rgba(255, 255, 255, 0.3); */
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.btn {
+  padding: 14px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.fixed-btn {
+  background: #4cd137;
+  color: #fff;
+}
+
+.fixed-btn:hover {
+  background: #44bd32;
+  transform: scale(1.05);
+}
+
+.runaway-btn {
+  background:#ff4757;
+  color: #fff;
+  position: absolute;
+  /* top/left get overridden by JS once it starts moving */
+}
+
+.runaway-btn:hover {
+  background: #44bd32;
+}
